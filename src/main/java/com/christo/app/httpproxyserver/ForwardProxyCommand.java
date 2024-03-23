@@ -14,5 +14,6 @@ public class ForwardProxyCommand implements Runnable {
     @Override
     public void run() {
         proxy.start();
+        proxy.listen();
     }
 }
